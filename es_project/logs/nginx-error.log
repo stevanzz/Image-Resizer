@@ -1,2 +1,0 @@
-2016/09/28 03:15:13 [error] 1149#0: *137 connect() failed (111: Connection refused) while connecting to upstream, client: 185.25.151.159, server: 0.0.0.0, request: "GET http://testp1.piwo.pila.pl/testproxy.php HTTP/1.1", upstream: "http://127.0.0.1:8001/testproxy.php", host: "testp1.piwo.pila.pl"
-2016/09/28 08:07:23 [error] 1149#0: *206 connect() failed (111: Connection refused) while connecting to upstream, client: 103.37.150.227, server: 0.0.0.0, request: "GET http://www.baidu.com/favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8001/favicon.ico", host: "www.baidu.com"
