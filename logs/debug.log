@@ -1,0 +1,208 @@
+supervisor: couldn't exec /home/ubuntu/imageresizer/imageresizer.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/ubuntu/imageresizer/imageresizer.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/ubuntu/imageresizer/imageresizer.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/ubuntu/imageresizer/imageresizer.sh: ENOEXEC
+supervisor: child process was not spawned
+Starting  as root
+/home/ubuntu/webapps/imageresizer/imageresizer.sh: line 24: cd: HOME not set
+[2016-08-04 09:55:41 +0000] [16001] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fb2a7655758>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fb2a7655488>
+  pre_fork: <function pre_fork at 0x7fb2a76555f0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: imageresizer
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fb2a7655320>
+  pre_exec: <function pre_exec at 0x7fb2a7655cf8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fb2a76558c0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fb2a765b410>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fb2a7655e60>
+  post_request: <function post_request at 0x7fb2a7655f50>
+  user: 1000
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fb2a7655a28>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fb2a765b140>
+  chdir: /home/ubuntu/webapps/imageresizer
+  paste: None
+  default_proc_name: imageresizer.wsgi:application
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fb2a76551b8>
+  worker_abort: <function worker_abort at 0x7fb2a7655b90>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fb2a765b2a8>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-04 09:55:41 +0000] [16001] [INFO] Starting gunicorn 19.6.0
+[2016-08-04 09:55:41 +0000] [16001] [DEBUG] Arbiter booted
+[2016-08-04 09:55:41 +0000] [16001] [INFO] Listening at: http://127.0.0.1:8001 (16001)
+[2016-08-04 09:55:41 +0000] [16001] [INFO] Using worker: sync
+[2016-08-04 09:55:41 +0000] [16011] [INFO] Booting worker with pid: 16011
+[2016-08-04 09:55:41 +0000] [16014] [INFO] Booting worker with pid: 16014
+[2016-08-04 09:55:41 +0000] [16015] [INFO] Booting worker with pid: 16015
+[2016-08-04 09:55:41 +0000] [16001] [DEBUG] 3 workers
+[2016-08-04 09:55:44 +0000] [16014] [DEBUG] GET /https://jpeg.org/images/jpeg2000-home.jpg
+[2016-08-04 09:56:29 +0000] [16015] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:56:40 +0000] [16014] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:56:49 +0000] [16011] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:56:56 +0000] [16015] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:57:04 +0000] [16014] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:57:10 +0000] [16011] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:57:16 +0000] [16015] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:57:23 +0000] [16011] [DEBUG] GET /https://www.w3.org/MarkUp/Test/xhtml-print/20050519/tests/jpeg420exif.jpg
+[2016-08-04 09:58:25 +0000] [16001] [INFO] Handling signal: term
+[2016-08-04 09:58:25 +0000] [16011] [INFO] Worker exiting (pid: 16011)
+[2016-08-04 09:58:25 +0000] [16014] [INFO] Worker exiting (pid: 16014)
+[2016-08-04 09:58:25 +0000] [16015] [INFO] Worker exiting (pid: 16015)
+[2016-08-04 09:58:25 +0000] [16001] [INFO] Shutting down: Master
+Starting  as root
+/home/ubuntu/webapps/imageresizer/imageresizer.sh: line 24: cd: HOME not set
+[2016-08-04 10:05:56 +0000] [16089] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7ff01d65c758>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7ff01d65c488>
+  pre_fork: <function pre_fork at 0x7ff01d65c5f0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: imageresizer
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7ff01d65c320>
+  pre_exec: <function pre_exec at 0x7ff01d65ccf8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7ff01d65c8c0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7ff01d662410>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7ff01d65ce60>
+  post_request: <function post_request at 0x7ff01d65cf50>
+  user: 1000
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7ff01d65ca28>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7ff01d662140>
+  chdir: /home/ubuntu/webapps/imageresizer
+  paste: None
+  default_proc_name: imageresizer.wsgi:application
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7ff01d65c1b8>
+  worker_abort: <function worker_abort at 0x7ff01d65cb90>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7ff01d6622a8>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-04 10:05:56 +0000] [16089] [INFO] Starting gunicorn 19.6.0
+[2016-08-04 10:05:56 +0000] [16089] [DEBUG] Arbiter booted
+[2016-08-04 10:05:56 +0000] [16089] [INFO] Listening at: http://127.0.0.1:8001 (16089)
+[2016-08-04 10:05:56 +0000] [16089] [INFO] Using worker: sync
+[2016-08-04 10:05:56 +0000] [16099] [INFO] Booting worker with pid: 16099
+[2016-08-04 10:05:56 +0000] [16102] [INFO] Booting worker with pid: 16102
+[2016-08-04 10:05:56 +0000] [16103] [INFO] Booting worker with pid: 16103
+[2016-08-04 10:05:56 +0000] [16089] [DEBUG] 3 workers
+[2016-08-04 12:23:29 +0000] [16102] [DEBUG] HEAD /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/webapps/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/home/ubuntu/webapps/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/ubuntu/webapps/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view imageresizer_app.views.homepage didn't return an HttpResponse object. It returned None instead.
+[2016-08-04 12:23:29 +0000] [16103] [DEBUG] GET /
+[2016-08-04 13:14:17 +0000] [16089] [INFO] Handling signal: term
+[2016-08-04 13:14:17 +0000] [16099] [INFO] Worker exiting (pid: 16099)
+[2016-08-04 13:14:17 +0000] [16102] [INFO] Worker exiting (pid: 16102)
+[2016-08-04 13:14:17 +0000] [16103] [INFO] Worker exiting (pid: 16103)
+[2016-08-04 13:14:17 +0000] [16089] [INFO] Shutting down: Master
